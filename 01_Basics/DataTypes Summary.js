@@ -34,3 +34,26 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+
+
+
+
+//*****************Stack and Heap *****************/
+
+let myLinkedInname = "Nikhil Kumar"
+let anothername = myLinkedInname
+anothername = "Nikhil Gupta"
+
+console.log(myLinkedInname);
+console.log(anothername);
+
+let userOne = {
+    email: "kumarnikhil735214@gmail.com"
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "kumarnikhil735214@gmail.com"
+
+console.log(userOne,email);
+console.log(userTwo.email);
